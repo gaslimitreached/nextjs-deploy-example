@@ -41,6 +41,36 @@ cd nextjs-deploy-example
 yarn run dev
 ```
 
+### Open Next
+
+To build with [open-next](https://open-next.js.org/):
+
+```
+yarn run opennext
+```
+
+### Synth
+
+To [synthesize](https://cdkworkshop.com/30-python/20-create-project/400-synth.html) the cloudformation template:
+
+```
+yarn run synth
+```
+
+### Deploy
+
+To [deploy](https://cdkworkshop.com/60-go/20-create-project/500-deploy.html) the stack:
+
+```
+yarn run deploy
+```
+**Info**: The deployment uses default credentials from `~/.aws/credentials` and can take several minutes.
+
+**Warning**: The deploy command does not ask for confirmation.
+
+**Warning**: The AWS region is defined at `apps/hosting/bin/hosting.ts`. AWS Lambda@Edge (yet to be implemented) requires the region to be `us-east-1`.
+
+
 ### Remote Caching
 
 Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
