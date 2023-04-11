@@ -1,0 +1,30 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf .turbo .next .open-next node_modules",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "opennext:debug": "OPEN_NEXT_DEBUG=true npx -y open-next@latest build",
+    "opennext": "npx -y open-next@latest build"
+  },
+  "dependencies": {
+    "date-fns": "^2.23.0",
+    "eslint": "latest",
+    "gray-matter": "^4.0.3",
+    "next": "^13.1.1",
+    "open-next": "^0.8.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.2",
+    "sharp": "^0.31.3",
+    "swr": "^1.0.1"
+  },
+  "devDependencies": {
+    "open-next": "^0.8.2"
+  }
+}
