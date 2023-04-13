@@ -8,12 +8,10 @@ This turborepo uses [yarn](https://yarnpkg.com/) as a package manager. It includ
 
 ### Apps and Packages
 
-- `web`: another [open-next](https://nextjs.org/) example app
+- `web`: [open-next](https://github.com/serverless-stack/open-next/tree/main/example) example app
 - `ui`: a stub React component library shared by both `web` and `docs` applications (unused)
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo (includes cdk.json)
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
 ### Utilities
 
