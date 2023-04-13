@@ -17,7 +17,7 @@
     "opennext": "turbo run opennext"
   },
   "devDependencies": {
-    "eslint-config-custom": "workspace:*",
+    "eslint-config-custom": "*",
     "prettier": "latest",
     "turbo": "latest"
   },

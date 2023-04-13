@@ -16,7 +16,7 @@
     "dev": {
       "cache": false
     },
-    "deploy:hosting" : {
+    "deploy" : {
       "dependsOn" : ["synth"],
       "cache": false
     },
