@@ -16,7 +16,6 @@
     "eslint": "latest",
     "gray-matter": "^4.0.3",
     "next": "^13.1.1",
-    "open-next": "^0.8.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "remark": "^13.0.0",
@@ -25,6 +24,6 @@
     "swr": "^1.0.1"
   },
   "devDependencies": {
-    "open-next": "^0.8.2"
+    "open-next": "^1.0.0"
   }
 }

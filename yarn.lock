@@ -4832,10 +4832,10 @@ onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
-open-next@^0.8.2:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/open-next/-/open-next-0.8.2.tgz#491e1136b62561de4fea3271cad3fdf8e2ef9940"
-  integrity sha512-V57eR7nvFQLGrRkvbBz1yR17qDP/nBPg+8xsq/mVGivo599Mv42WxCnZ92+Hc0LFokQ2ktxaoh+A3HM/c3vcJQ==
+open-next@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/open-next/-/open-next-1.0.0.tgz#20266c00c26f391127589aee161132c58585adb0"
+  integrity sha512-elvZBUxpWdszVrNJZzCt0fWVQ7TNlt7LF1SfV/rfOSiLDcp+HVeLeDDR9Ws3r6zSba+PXSDFpKWTi0+F/puByw==
   dependencies:
     "@aws-sdk/client-s3" "^3.234.0"
     "@tsconfig/node18" "^1.0.1"
