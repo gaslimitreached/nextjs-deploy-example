@@ -20,7 +20,7 @@ export default function Page({ time }) {
         </p>
         <p>
           <b>Test 2:</b>
-          {`Check your browser's developer console. the request might show cache MISS on first load. Subsequent refreshes should shows cache HIT.`}
+          Check your browser's developer console. the request might show cache MISS on first load. Subsequent refreshes should shows cache HIT.
         </p>
       </article>
     </Layout>
