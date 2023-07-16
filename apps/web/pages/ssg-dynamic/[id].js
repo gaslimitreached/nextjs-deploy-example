@@ -35,11 +35,11 @@ export default function Post({ data, time }) {
         </p>
         <p>
           <b>Test 2:</b>
-          {`This string 👉 "${data.title}" should be "First post"`}
+          This string 👉 "{data.title}" should be "First post"
         </p>
         <p>
           <b>Test 3:</b>
-          {`Check your browser's developer console. First request might show cache MISS on first load. Subsequent refreshes should shows cache HIT.`}
+          Check your browser's developer console. First request might show cache MISS on first load. Subsequent refreshes should shows cache HIT.
         </p>
       </article>
     </Layout>

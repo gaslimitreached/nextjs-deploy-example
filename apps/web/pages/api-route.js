@@ -5,7 +5,6 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export default function Page() {
   const { data } = useSWR("/api/hello", fetcher);
-  console.log(data);
   return (
     <Layout>
       <article>
@@ -15,7 +14,7 @@ export default function Page() {
         <hr />
         <p>
           <b>Test 1:</b>
-          The API response 👉 {JSON.stringify(data)} should be Hello.
+          The API response 👉 {JSON.stringify(data)} should be "Hello".
         </p>
       </article>
     </Layout>
